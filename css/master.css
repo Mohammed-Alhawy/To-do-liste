@@ -62,7 +62,7 @@ padding: 0px 7px;
 
 
 
-/* تنسيق الايقونات */
+/*  icon style */
 
 
 .icon{
@@ -128,6 +128,20 @@ font-size: 21px  ;
 text-align: center;
 }
 
+@media (max-width:992px) {
+  input{
+    width: 50vw;
+  }
+}
+@media (max-width:600px) {
+  h1{
+    font-size: 3em;
+  }
+  input{
+    width: 75vw;
+  }
+}
+
 
 button{all: unset;}
 .icon-upload{
@@ -156,4 +170,18 @@ button{all: unset;}
 .orange{
   color: orange;
   opacity: 1;
+}
+
+
+@media(max-width:500px){
+  .task{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 2px;
+  }
+  .task p{
+    margin: 12px 0;
+    font-size:1em ;
+    text-align: center;
+  }
 }
